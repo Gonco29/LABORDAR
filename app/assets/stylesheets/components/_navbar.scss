@@ -1,0 +1,39 @@
+/* application.scss (o tu archivo de estilos) */
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+/* Ajuste específico para el logo en la barra de navegación */
+.navbar-lewagon .navbar-brand img {
+  max-height: 50px; /* Altura máxima del logo */
+  max-width: 150px; /* Ancho máximo del logo */
+  // margin-left: 20px;
+}
+
+/* Estilo adicional para el logo */
+#navbar-logo {
+  max-height: 50px;
+  max-width: 150px;
+}
+
+.nav-link:hover {
+  color: #ff9800; /* Color del texto en hover */
+  // background-color: #007bff; /* Color de fondo en hover */
+}
+
+.nav-link-toggler {
+  color: #ff9800;
+}
+
+.nav-link-toggler:hover {
+  color: white;
+  background-color: #ff9800;
+}
+
+
